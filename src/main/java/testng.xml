@@ -1,0 +1,15 @@
+
+
+<suite name="TestNg Sessions test Automation suite ">
+
+	<test name="Different testing Feature Test">
+		<classes>
+			<class name="com.Test.ExceptionTImeOutTest" />
+			<class name="com.Test.GoogleTest" />
+			<class name="com.Test.GoogleTItleTest" />
+			<class name="com.Test.InvocationCountTest" />
+			<class name="com.Test.TestNGBasics" />
+			<class name="com.Test.TestNGFeatures" />
+		</classes>
+	</test>
+</suite>
