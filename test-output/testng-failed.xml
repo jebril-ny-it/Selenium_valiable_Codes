@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [TestNg Sessions test Automation suite ]">
-  <test thread-count="5" name="Different testing Feature Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Test.GoogleTItleTest">
+      <class name="crmScreenShotExtenReport.FreeCRMExtentReportScreenShot">
         <methods>
           <include name="setUp"/>
-          <include name="googleTitleTest"/>
+          <include name="freeCRmLogoTest"/>
+          <include name="endReport"/>
           <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="freeCRMTitle"/>
         </methods>
-      </class> <!-- com.Test.GoogleTItleTest -->
-      <class name="com.Test.GoogleTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="googleLogoTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.Test.GoogleTest -->
+      </class> <!-- crmScreenShotExtenReport.FreeCRMExtentReportScreenShot -->
     </classes>
-  </test> <!-- Different testing Feature Test(failed) -->
-</suite> <!-- Failed suite [TestNg Sessions test Automation suite ] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

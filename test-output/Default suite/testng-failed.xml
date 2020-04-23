@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Test.GoogleTItleTest">
+      <class name="crmScreenShotExtenReport.FreeCRMExtentReportScreenShot">
         <methods>
           <include name="setUp"/>
-          <include name="googleTitleTest"/>
+          <include name="freeCRmLogoTest"/>
+          <include name="endReport"/>
           <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="freeCRMTitle"/>
         </methods>
-      </class> <!-- com.Test.GoogleTItleTest -->
+      </class> <!-- crmScreenShotExtenReport.FreeCRMExtentReportScreenShot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
