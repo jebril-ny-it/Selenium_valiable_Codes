@@ -87,5 +87,8 @@ public class TestNGBasics {
 	
 	//@AfterClass  close browser
 	 //@AfterTest  delete all cookies
+	
+	//HOW WE INSTALL TESTNG
+	//https://dl.bintray.com/testng-team/testng-eclipse-release/
 
 }
