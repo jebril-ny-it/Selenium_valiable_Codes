@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3052" started-at="2020-04-24T17:07:32 EDT" finished-at="2020-04-24T17:07:36 EDT">
+  <suite name="Default suite" duration-ms="14022" started-at="2020-04-28T01:11:24 EDT" finished-at="2020-04-28T01:11:38 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3052" started-at="2020-04-24T17:07:32 EDT" finished-at="2020-04-24T17:07:36 EDT">
-      <class name="com.qa.parameters.ParameterTest">
-        <test-method status="PASS" signature="seetuo()[pri:0, instance:com.qa.parameters.ParameterTest@4e4aea35]" name="seetuo" is-config="true" duration-ms="3019" started-at="2020-04-24T17:07:32 EDT" finished-at="2020-04-24T17:07:35 EDT">
+    <test name="Default test" duration-ms="14022" started-at="2020-04-28T01:11:24 EDT" finished-at="2020-04-28T01:11:38 EDT">
+      <class name="hashmaps.TestHashMaps">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hashmaps.TestHashMaps@11c20519]" name="setup" is-config="true" duration-ms="4392" started-at="2020-04-28T01:11:24 EDT" finished-at="2020-04-28T01:11:29 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- seetuo -->
-        <test-method status="PASS" signature="yahooLoginTest()[pri:0, instance:com.qa.parameters.ParameterTest@4e4aea35]" name="yahooLoginTest" duration-ms="5" started-at="2020-04-24T17:07:35 EDT" finished-at="2020-04-24T17:07:36 EDT">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginWithMjayUserTest()[pri:1, instance:hashmaps.TestHashMaps@11c20519]" name="loginWithMjayUserTest" duration-ms="354" started-at="2020-04-28T01:11:29 EDT" finished-at="2020-04-28T01:11:29 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- yahooLoginTest -->
-      </class> <!-- com.qa.parameters.ParameterTest -->
+        </test-method> <!-- loginWithMjayUserTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hashmaps.TestHashMaps@11c20519]" name="setup" is-config="true" duration-ms="8935" started-at="2020-04-28T01:11:29 EDT" finished-at="2020-04-28T01:11:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginWithNaveenUserTest()[pri:2, instance:hashmaps.TestHashMaps@11c20519]" name="loginWithNaveenUserTest" duration-ms="306" started-at="2020-04-28T01:11:38 EDT" finished-at="2020-04-28T01:11:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNaveenUserTest -->
+      </class> <!-- hashmaps.TestHashMaps -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
