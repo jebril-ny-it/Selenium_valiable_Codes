@@ -24,7 +24,6 @@ public class MouseMovmentConcept {
 
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Priority Check-in")).click();
-
-	}
+		}
 
 }
